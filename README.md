@@ -12,6 +12,7 @@
    - [User Stories](#62-user-stories)
    - [Use Case](#63-use-case)
    - [Scenario](#64-scenario)
+7. [Team Roles and Responsibilies](#7-team-roles-and-responsibilies)
 
 
 # 🧠 Problem Definition
@@ -56,3 +57,17 @@ To design a **seamless, human-centered autonomous shuttle service** that support
 - Promoting **independence and routine** for elderly residents
 
 Our solution will help Olivia maintain her lifestyle, meet her daily needs, and reconnect with her community—**without stress, dependency, or barriers**.
+
+## 🎯 Team Roles and Responsibilities
+
+Our team is committed to project success through clear communication, timely delivery, and collaborative problem-solving. Each member has specific roles, from managing meetings and documenting progress to overseeing agile practices and ensuring team activities run smoothly. Together, we achieve collective growth and efficiency. Here's how we organized our responsibilities:
+
+| **Responsibility**                                                                 | **Member**             |
+|------------------------------------------------------------------------------------|------------------------|
+| Project Management, Feedback jotting, Software Engineering                        | Ravikumar Savaliya      |
+| Documentation (Goals, Protocols, Mails, Weekly Presentations)                     | Sonia S.               |
+| Validation and Submission Planner                                                 | Vamsi                  |
+| Timekeeper, Meeting rules, and ensuring everyone is in the meeting                | Fenil Savaliya         |
+| Planning team activities, seeking help and assistance                              | Parth Pahinkar         |
+| Assigning tasks and planning reviews                                               | Monika N.              |
+
