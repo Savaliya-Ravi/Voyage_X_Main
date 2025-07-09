@@ -1,7 +1,5 @@
-# Presentation Outline (16 min)
-
 ## Table of Contents
-1. [Our Team](#1-our-team)
+1. [Fly with VoyageX](#1-fly-with-voyagex)
 2. [Our Mission](#2-our-mission)
 3. [Problem (Question Zero)](#3-problem-question-zero)
 4. [Persona](#4-persona)
@@ -15,56 +13,6 @@
    - [Use Case](#63-use-case)
    - [Scenario](#64-scenario)
 
----
-
-## 1. Our Team
-- Roles
-
-## 2. Our Mission
-
-## 3. Problem (Question Zero)
-
-## 4. Persona
-
-## 5. System Architecture
-
-### 5.1 Block Diagram
-
-### 5.2 State Diagram
-
-### 5.3 Activity Diagram
-
-## 6. Project Management
-
-### 6.1 Milestones
-
-### 6.2 User Stories
-
-### 6.3 Use Case
-
-### 6.4 Scenario
-
----
-
-## 1. Our Team
-- Roles
-
-## 2. Our Mission
-
-## 3. Problem (Question Zero)
-
-## 4. Persona
-
-## 5. System Architecture
-- Block Diagram
-- State Diagram
-- Activity Diagram
-
-## 6. Project Management
-- Milestones
-- User Stories
-- Use Case
-- Scenario
 
 # 🧠 Problem Definition
 
