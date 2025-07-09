@@ -1,3 +1,35 @@
+# Presentation Outline (16 min)
+
+## Table of Contents
+1. [Our Team](#1-our-team)
+2. [Our Mission](#2-our-mission)
+3. [Problem (Question Zero)](#3-problem-question-zero)
+4. [Persona](#4-persona)
+5. [System Architecture](#5-system-architecture)
+6. [Project Management](#6-project-management)
+
+---
+
+## 1. Our Team
+- Roles
+
+## 2. Our Mission
+
+## 3. Problem (Question Zero)
+
+## 4. Persona
+
+## 5. System Architecture
+- Block Diagram
+- State Diagram
+- Activity Diagram
+
+## 6. Project Management
+- Milestones
+- User Stories
+- Use Case
+- Scenario
+
 # 🧠 Problem Definition
 
 ## ❓ Question Zero
