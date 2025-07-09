@@ -6,7 +6,43 @@
 3. [Problem (Question Zero)](#3-problem-question-zero)
 4. [Persona](#4-persona)
 5. [System Architecture](#5-system-architecture)
+   - [Block Diagram](#51-block-diagram)
+   - [State Diagram](#52-state-diagram)
+   - [Activity Diagram](#53-activity-diagram)
 6. [Project Management](#6-project-management)
+   - [Milestones](#61-milestones)
+   - [User Stories](#62-user-stories)
+   - [Use Case](#63-use-case)
+   - [Scenario](#64-scenario)
+
+---
+
+## 1. Our Team
+- Roles
+
+## 2. Our Mission
+
+## 3. Problem (Question Zero)
+
+## 4. Persona
+
+## 5. System Architecture
+
+### 5.1 Block Diagram
+
+### 5.2 State Diagram
+
+### 5.3 Activity Diagram
+
+## 6. Project Management
+
+### 6.1 Milestones
+
+### 6.2 User Stories
+
+### 6.3 Use Case
+
+### 6.4 Scenario
 
 ---
 
