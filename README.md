@@ -1,26 +1,25 @@
 ## 📚 Table of Contents
 
-## 📚 Table of Contents
+- [🛫 Fly with VoyageX](#fly-with-voyagex)
+- [🎯 Our Mission](#our-mission)
+- [🧠 Problem (Question Zero)](#problem-question-zero)
+- [👵 Persona](#persona)
+- [🧩 System Architecture](#system-architecture)
+  - [🧱 Block Diagram](#block-diagram)
+  - [🔄 State Diagram](#state-diagram)
+  - [🏃 Activity Diagram](#activity-diagram)
+- [🗂️ Project Management](#project-management)
+  - [📅 Milestones](#milestones)
+  - [📋 User Stories](#user-stories)
+  - [🔎 Use Case](#use-case)
+  - [🎬 Scenario](#scenario)
+- [👥 Team Roles and Responsibilities](#team-roles-and-responsibilities)
 
-- [Fly with VoyageX](#fly-with-voyagex)
-- [Our Mission](#our-mission)
-- [Problem (Question Zero)](#problem-question-zero)
-- [Persona](#persona)
-- [System Architecture](#system-architecture)
-  - [Block Diagram](#block-diagram)
-  - [State Diagram](#state-diagram)
-  - [Activity Diagram](#activity-diagram)
-- [Project Management](#project-management)
-  - [Milestones](#milestones)
-  - [User Stories](#user-stories)
-  - [Use Case](#use-case)
-  - [Scenario](#scenario)
-- [Team Roles and Responsibilities](#team-roles-and-responsibilities)
 
 
 ---
 
-# Fly with VoyageX
+# 🛫 Fly with VoyageX
 
 > _Brief introduction about your team and project title._
 
@@ -34,7 +33,7 @@ VoyageX is an interdisciplinary student project aimed at building **inclusive au
 
 ---
 
-# Our Mission
+#🎯Our Mission
 
 To design a **seamless, human-centered autonomous shuttle service** that supports users like Olivia by:
 
@@ -49,7 +48,7 @@ To design a **seamless, human-centered autonomous shuttle service** that support
 
 ---
 
-# Problem (Question Zero)
+# 🧠 Problem (Question Zero)
 
 ## ❓ Question Zero
 
