@@ -75,7 +75,22 @@ We designed a modular and scalable system that ensures reliability, accessibilit
 
 ### 🏃 Activity Diagram
 
-- Describes user flow from requesting a ride to drop-off.
+- This activity diagram shows how an autonomous shuttle service can be used to help elderly residents with walking aids get to places like supermarkets in rural areas such as Landkreis Kronach.
+
+The process starts when a senior citizen requests a shuttle. This could be done through a phone call, mobile app, or a simple local kiosk—designed to be accessible and easy for elderly users.
+
+Once the booking request is received, the system checks if the booking is confirmed. If it’s not confirmed (maybe due to schedule issues or service unavailability), the shuttle doesn't move but instead waits in a nearby parking area until a new request comes in.
+
+If the booking is confirmed, the shuttle plans a safe and accessible path to the pickup location. The shuttle then travels to where the user is, making sure it arrives smoothly and safely, even on narrow or uneven rural roads.
+
+After reaching the pickup location, the shuttle authenticates the user (for example, by verifying a code or recognizing the booking), and the user gets on board. The shuttle design supports easy boarding, especially for seniors using walkers or walking sticks.
+
+Next, the shuttle drives the user to their drop-off location—for example, the nearest supermarket or pharmacy. Once it gets there, the user safely exits the shuttle.
+
+After the drop-off, the shuttle must find a place to park while waiting for the next ride. It begins by searching for an available parking spot. If it finds a spot, it parks and waits there. If it can’t find a spot immediately, it keeps searching until it does.
+
+Finally, once parked, the shuttle waits quietly in the parking area until the next booking is made. The process is then complete.
+
 - Maps decision points and parallel processes (like scheduling and verification).
 
 ---
