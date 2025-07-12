@@ -1,5 +1,3 @@
-
-
 ## 📚 Table of Contents
 
 - [🎯 Our Mission](#our-mission)
