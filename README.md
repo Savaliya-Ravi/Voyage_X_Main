@@ -76,6 +76,7 @@ When the shuttle reaches the pickup spot, it moves to the Boarding state. Here, 
 
 After drop-off, the shuttle searches for an available parking spot near the supermarket. When it reaches a parking spot, it transitions into a Parking state and parks itself safely. After that it changes its state to Ideal and remains there until the user finishes shopping. Once the user completes its shopping , the same cycle can repeat. This simple, well-defined state model ensures that the shuttle service is both efficient and responsive, offering safe, on-demand mobility to help seniors complete essential tasks like grocery shopping independently and reliably.
 
+![State Diagram](State_diagram.jpg)
 
 ### 🏃 Activity Diagram
 
@@ -83,7 +84,7 @@ The autonomous shuttle service begins when an elderly resident uses a dedicated 
 
 After planning the route, the shuttle drives to the user’s location. After reaching the pickup location, the shuttle authenticates user using a QR code scanner, ensuring the correct person boards the shuttle. After successful authentication, the user boards the shuttle, which is designed to accommodate walking aids with automated door and ramp access. The shuttle then drives to the supermarket, since the goal of this service is to assist elderly citizens in making routine shopping trips independently. Once at the supermarket, the user deboards the shuttle safely and proceeds with their shopping.
 
-![Activity Diagram](Activity%20Diagram.jpg)
+![Activity Diagram](Activity_diagram.jpg)
 
 
 ---
@@ -127,6 +128,7 @@ regular routine without needing assistance—supporting both her mobility and em
 
 ### 🎬 Scenario
 
+![Olivia Wilson](Olivia_wilson.png)
 The autonomous grocery shuttle operation begins with a ride request initiated by the user, Olivia
 Wilson, a 70-year-old retiree living independently in a senior apartment in Kronach. Due to mild
 arthritis and balance issues, she relies on a walker with a seat and avoids long walks or using
