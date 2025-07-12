@@ -85,6 +85,9 @@ The autonomous shuttle service begins when an elderly resident uses a dedicated 
 
 After planning the route, the shuttle drives to the user’s location. After reaching the pickup location, the shuttle authenticates user using a QR code scanner, ensuring the correct person boards the shuttle. After successful authentication, the user boards the shuttle, which is designed to accommodate walking aids with automated door and ramp access. The shuttle then drives to the supermarket, since the goal of this service is to assist elderly citizens in making routine shopping trips independently. Once at the supermarket, the user deboards the shuttle safely and proceeds with their shopping.
 
+![](./Activty Diagram.jpg)
+
+
 ---
 
 ## 🗂️ Project Management
