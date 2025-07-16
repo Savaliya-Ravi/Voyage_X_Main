@@ -46,7 +46,7 @@ The concept of **Question Zero** emphasizes the importance of beginning the desi
 
 ---
 
-## 👵 Persona
+## Persona
 
 The **Persona Method** helps designers and engineers deeply understand the **challenges, motivations, and preferences** of their users. By crafting fictional, research-driven user profiles, we can ensure that our autonomous shuttle solution is tailored to meet real-world demands.
 
@@ -60,11 +60,11 @@ She no longer drives and feels emotionally burdened when asking family for help.
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 We designed a modular and scalable system that ensures reliability, accessibility, and real-time responsiveness.
 
-### 🧱 Block Diagram
+### Block Diagram
 
 The autonomous shuttle system is designed to provide safe and accessible transportation for all users, especially those with mobility needs. Built on a five-layer architecture—Sensors, Sense, Plan, Act, and Actuator—the system is powered by ROS 2, ensuring modularity, real-time performance, and compatibility with modern urban mobility standards.
 
@@ -82,10 +82,10 @@ Together, these layers form a robust and intelligent system for autonomous trans
 
 ![Block Diagram](block_diagram.jpg)
 
-[Visit Miro Board]([https://example.com](https://miro.com/welcomeonboard/V2tWM2k0RU5iY0xkQjZ6RHIveVJJUHJOdzRnSEJ2cFRmOWZIRzc5dCs4WFZDS2NVS3BFeGdQaVVLMUR4MDJBeDYrWXN3WTJ5TjRYWWM3ckkyTnBVVndya1U4UG5xQTJJeGhYY2xaaFI2azVmMW9Kb1dsckFwNHVJcTJTODB5dktyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=175416963287))
+[Visit Miro Board](https://miro.com/welcomeonboard/V2tWM2k0RU5iY0xkQjZ6RHIveVJJUHJOdzRnSEJ2cFRmOWZIRzc5dCs4WFZDS2NVS3BFeGdQaVVLMUR4MDJBeDYrWXN3WTJ5TjRYWWM3ckkyTnBVVndya1U4UG5xQTJJeGhYY2xaaFI2azVmMW9Kb1dsckFwNHVJcTJTODB5dktyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=175416963287)
 
 
-### 🔄 State Diagram
+### State Diagram
 This state diagram shows the full cycle of an autonomous shuttle designed specifically for elderly users with walking aids. The shuttle starts in the Idle state, where it waits in a parking area or resting point until a booking is confirmed through a dedicated mobile app. Once a booking is made, the shuttle transitions to the Driving state. In this state, the vehicle navigates from its idle position to the user’s pickup location, using planned paths that consider safety and rural road conditions.
 
 When the shuttle reaches the pickup spot, it moves to the Boarding state. Here, the user scans a QR code for authentication before boarding. The shuttle is designed to support individuals with mobility limitations, using features like automated ramps. Once the user boards, the shuttle resumes the Driving state again—this time heading to the user's intended drop-off location, which is a supermarket. Upon arrival, the shuttle switches to the Deboarding state, where the user exits safely to begin their shopping trip.
@@ -94,7 +94,7 @@ After drop-off, the shuttle searches for an available parking spot near the supe
 
 ![State Diagram](State_diagram.jpg)
 
-### 🏃 Activity Diagram
+### Activity Diagram
 
 The autonomous shuttle service begins when an elderly resident uses a dedicated app to request a ride to the supermarket. The app is designed specifically for seniors, with large icons and a simplified interface to make booking easier. Once a booking request is received, the system checks if the booking is confirmed. If not, the shuttle doesn’t proceed but instead waits in the parking area, until a valid request comes in. If the booking is successful, the shuttle plans a path to the user’s based on current traffic and road conditions in the rural area.
 
@@ -105,22 +105,23 @@ After planning the route, the shuttle drives to the user’s location. After rea
 
 ---
 
-## 🗂️ Project Management
+## Project Management
 
-### 📅 Milestones
+### Milestones
 
 - Week 1–2: Requirement gathering and persona creation
 - Week 3–4: System architecture and block diagram
 - Week 5–6: Prototype development
 - Week 7–8: Testing and final review
 
-### 📋 User Stories
+### User Stories
 
 ![User Stories](user_stories.jpg)
-[Visit Miro Board]([https://example.com](https://miro.com/welcomeonboard/bFdCeDJveHExeDFBWDdaVTBZci9jdDd2NVhjS3M5dUVMWEZoZDIveTR4NlVHN01hTUp5TUw4eEZyNS94aG1zVFJoM0NESlgvelJXR0grMWpBNDlyVlFya1U4UG5xQTJJeGhYY2xaaFI2azZzYjJlWFZNcjRzMXBnUGNBZXRDMGphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=382741195050))
+
+[Visit Miro Board](https://miro.com/welcomeonboard/bFdCeDJveHExeDFBWDdaVTBZci9jdDd2NVhjS3M5dUVMWEZoZDIveTR4NlVHN01hTUp5TUw4eEZyNS94aG1zVFJoM0NESlgvelJXR0grMWpBNDlyVlFya1U4UG5xQTJJeGhYY2xaaFI2azZzYjJlWFZNcjRzMXBnUGNBZXRDMGphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=382741195050)
 
 
-### 🔎 Use Case
+### Use Case
 
 Olivia Wilson, a 70-year-old retiree, lives alone in a senior apartment in Kronach. She values her
 independence but faces challenges due to mild arthritis and fatigue, relying on a walker with a seat
@@ -143,7 +144,7 @@ regular routine without needing assistance—supporting both her mobility and em
 
 ![Olivia Wilson](Olivia_wilson.png)
 
-### 🎬 Scenario
+### Scenario
 
 The autonomous grocery shuttle operation begins with a ride request initiated by the user, Olivia
 Wilson, a 70-year-old retiree living independently in a senior apartment in Kronach. Due to mild
@@ -197,7 +198,7 @@ others.
 ![Scenario](scenario.png)
 ---
 
-## 👥 Team Roles and Responsibilities
+## Team Roles and Responsibilities
 
 Our team is committed to project success through clear communication, timely delivery, and collaborative problem-solving. Each member has specific roles, from managing meetings and documenting progress to overseeing agile practices and ensuring team activities run smoothly. Together, we achieve collective growth and efficiency.
 
