@@ -1,18 +1,18 @@
 ## 📚 Table of Contents
 
-- [🎯 Our Mission](#our-mission)
-- [🧠 Problem (Question Zero)](#problem-question-zero)
-- [👵 Persona](#persona)
-- [🧩 System Architecture](#system-architecture)
-  - [🧱 Block Diagram](#block-diagram)
-  - [🔄 State Diagram](#state-diagram)
-  - [🏃 Activity Diagram](#activity-diagram)
-- [🗂️ Project Management](#project-management)
-  - [📅 Milestones](#milestones)
-  - [📋 User Stories](#user-stories)
-  - [🔎 Use Case](#use-case)
-  - [🎬 Scenario](#scenario)
-- [👥 Team Roles and Responsibilities](#team-roles-and-responsibilities)
+- [Our Mission](#our-mission)
+- [Problem (Question Zero)](#problem-question-zero)
+- [Persona](#persona)
+- [System Architecture](#system-architecture)
+  - [Block Diagram](#block-diagram)
+  - [State Diagram](#state-diagram)
+  - [Activity Diagram](#activity-diagram)
+- [Project Management](#project-management)
+  - [Milestones](#milestones)
+  - [User Stories](#user-stories)
+  - [Use Case](#use-case)
+  - [Scenario](#scenario)
+- [Team Roles and Responsibilities](#team-roles-and-responsibilities)
 
 ---
 
@@ -66,8 +66,24 @@ We designed a modular and scalable system that ensures reliability, accessibilit
 
 ### 🧱 Block Diagram
 
-- Shows core modules like UI, Cloud Server, Autonomous Shuttle System, Sensors, and Edge Device Communication.
-- Describes how modules interact to process requests and manage rides.
+The autonomous shuttle system is designed to provide safe and accessible transportation for all users, especially those with mobility needs. Built on a five-layer architecture—Sensors, Sense, Plan, Act, and Actuator—the system is powered by ROS 2, ensuring modularity, real-time performance, and compatibility with modern urban mobility standards.
+
+The Sensors Layer collects essential data to help the shuttle understand its surroundings and external conditions. A YDLIDAR G4 scans the environment to detect obstacles, while an Intel RealSense camera identifies objects. A QR code scanner verifies passengers before boarding, and a Domain Bridge (HS-IoT) ensures continuous connection to external services like cloud infrastructure and traffic updates.
+
+In the Sense Layer, this data is processed to create a clear understanding of the shuttle’s surroundings. The Localization Module estimates the shuttle’s position and orientation by interpreting sensor data, while Object Detection and Obstacle Detection Modules recognize people, vehicles, and static hazards. A V2X Decoder gathers messages from nearby connected infrastructure or vehicles, helping the shuttle make informed decisions. All sensor data is merged using the Sensor Fusion and Filtering Module, while the Map Server maintains an updated digital map. The Authentication Module handles secure passenger identification using scanned QR inputs.
+
+The Plan Layer determines the shuttle’s behavior based on its understanding of the environment. At its core, the Decision Unit evaluates the situation and decides whether the shuttle should drive, park, board, or be ideal. The Path Planning Module calculates the most appropriate route, considering current location and goal position. This planning process ensures the shuttle navigates safely and efficiently.
+
+In the Act Layer, the Path Execution Controller plays a central role, converting the planned path into real-time control actions. This module ensures the shuttle follows the route accurately, handling turns, speed changes, and route corrections. The Access Controller manages physical accessibility features such as the door and ramp, triggered only after verifying safe conditions and authenticated passenger access. Meanwhile, the V2X Encoder shares the shuttle’s primary details with surrounding infrastructure and other vehicles for coordinated, safe interaction.
+
+The Actuator Layer transforms these decisions into physical motion. A Door Actuator and Ramp Actuator provide safe entry and exit, especially for passengers with mobility challenges. The Domain Bridge also continues to relay relevant data to external systems, allowing monitoring or integration with smart mobility services.
+
+Together, these layers form a robust and intelligent system for autonomous transport. With a focus on safety, accessibility, and real-time response, and backed by the reliability of ROS 2, the shuttle is ready for practical use in smart city environments.
+
+![Block Diagram](block_diagram.jpg)
+
+[Visit Miro Board]([https://example.com](https://miro.com/welcomeonboard/V2tWM2k0RU5iY0xkQjZ6RHIveVJJUHJOdzRnSEJ2cFRmOWZIRzc5dCs4WFZDS2NVS3BFeGdQaVVLMUR4MDJBeDYrWXN3WTJ5TjRYWWM3ckkyTnBVVndya1U4UG5xQTJJeGhYY2xaaFI2azVmMW9Kb1dsckFwNHVJcTJTODB5dktyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=175416963287))
+
 
 ### 🔄 State Diagram
 This state diagram shows the full cycle of an autonomous shuttle designed specifically for elderly users with walking aids. The shuttle starts in the Idle state, where it waits in a parking area or resting point until a booking is confirmed through a dedicated mobile app. Once a booking is made, the shuttle transitions to the Driving state. In this state, the vehicle navigates from its idle position to the user’s pickup location, using planned paths that consider safety and rural road conditions.
@@ -100,9 +116,9 @@ After planning the route, the shuttle drives to the user’s location. After rea
 
 ### 📋 User Stories
 
-- As Olivia, I want a ride without using an app so I can easily book it.
-- As a caregiver, I want to ensure she is picked up safely.
-- As a system admin, I want to monitor shuttles in real time.
+![User Stories](user_stories.jpg)
+[Visit Miro Board]([https://example.com](https://miro.com/welcomeonboard/bFdCeDJveHExeDFBWDdaVTBZci9jdDd2NVhjS3M5dUVMWEZoZDIveTR4NlVHN01hTUp5TUw4eEZyNS94aG1zVFJoM0NESlgvelJXR0grMWpBNDlyVlFya1U4UG5xQTJJeGhYY2xaaFI2azZzYjJlWFZNcjRzMXBnUGNBZXRDMGphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=382741195050))
+
 
 ### 🔎 Use Case
 
@@ -125,10 +141,10 @@ zone for her return trip.
 This service empowers Olivia to maintain her independence, avoid physical strain, and keep a
 regular routine without needing assistance—supporting both her mobility and emotional well-being.
 
+![Olivia Wilson](Olivia_wilson.png)
 
 ### 🎬 Scenario
 
-![Olivia Wilson](Olivia_wilson.png)
 The autonomous grocery shuttle operation begins with a ride request initiated by the user, Olivia
 Wilson, a 70-year-old retiree living independently in a senior apartment in Kronach. Due to mild
 arthritis and balance issues, she relies on a walker with a seat and avoids long walks or using
@@ -178,6 +194,7 @@ This seamless, autonomous experience empowers Olivia to manage her errands indep
 enhancing her mobility, routine stability, and overall quality of life without needing to depend on
 others.
 
+![Scenario](scenario.png)
 ---
 
 ## 👥 Team Roles and Responsibilities
