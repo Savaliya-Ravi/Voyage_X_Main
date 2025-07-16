@@ -204,9 +204,9 @@ Our team is committed to project success through clear communication, timely del
 
 | **Responsibility**                                                                 | **Member**             | **Component**|
 |------------------------------------------------------------------------------------|------------------------|--------------|
-| Project Management, Feedback jotting, Software Engineering                        | Ravikumar Savaliya     |https://git.hs-coburg.de/voyagex/vx_path_planning|
-| Documentation (Goals, Protocols, Mails, Weekly Presentations)                     | Sonia S.               |https://git.hs-coburg.de/voyagex/vx_v2x_decoder|
-| Validation and Submission Planner                                                 | Monika N.                  |https://git.hs-coburg.de/voyagex/vx_localization|
-| Timekeeper, Meeting rules, and ensuring everyone is in the meeting                | Vamsi         |https://git.hs-coburg.de/voyagex/vx_obstacle_detection|
-| Planning team activities, seeking help and assistance                              | Parth Pahinkar         |https://git.hs-coburg.de/voyagex/vx_v2x_encoder|
-| Assigning tasks and planning reviews                                               | Fenil Savaliya              |https://git.hs-coburg.de/voyagex/vx_path_execution_controller|
+| Project Management, Feedback jotting, Software Engineering                        | Ravikumar Savaliya     |[Path Planning](https://git.hs-coburg.de/voyagex/vx_path_planning)|
+| Documentation (Goals, Protocols, Mails, Weekly Presentations)                     | Sonia S.               |[V2X Decoder](https://git.hs-coburg.de/voyagex/vx_v2x_decoder)|
+| Validation and Submission Planner                                                 | Monika N.                  |[Localization](https://git.hs-coburg.de/voyagex/vx_localization)|
+| Timekeeper, Meeting rules, and ensuring everyone is in the meeting                | Vamsi         |[Obstacle Detection](https://git.hs-coburg.de/voyagex/vx_obstacle_detection)|
+| Planning team activities, seeking help and assistance                              | Parth Pahinkar         |[V2X Encoder](https://git.hs-coburg.de/voyagex/vx_v2x_encoder)|
+| Assigning tasks and planning reviews                                               | Fenil Savaliya              |[Path Execution Controller](https://git.hs-coburg.de/voyagex/vx_path_execution_controller)|
