@@ -202,11 +202,11 @@ others.
 
 Our team is committed to project success through clear communication, timely delivery, and collaborative problem-solving. Each member has specific roles, from managing meetings and documenting progress to overseeing agile practices and ensuring team activities run smoothly. Together, we achieve collective growth and efficiency.
 
-| **Responsibility**                                                                 | **Member**             |
-|------------------------------------------------------------------------------------|------------------------|
-| Project Management, Feedback jotting, Software Engineering                        | Ravikumar Savaliya     |
-| Documentation (Goals, Protocols, Mails, Weekly Presentations)                     | Sonia S.               |
-| Validation and Submission Planner                                                 | Monika N.                  |
-| Timekeeper, Meeting rules, and ensuring everyone is in the meeting                | Vamsi         |
-| Planning team activities, seeking help and assistance                              | Parth Pahinkar         |
-| Assigning tasks and planning reviews                                               | Fenil Savaliya              |
+| **Responsibility**                                                                 | **Member**             | **Component**|
+|------------------------------------------------------------------------------------|------------------------|--------------|
+| Project Management, Feedback jotting, Software Engineering                        | Ravikumar Savaliya     |https://git.hs-coburg.de/voyagex/vx_path_planning|
+| Documentation (Goals, Protocols, Mails, Weekly Presentations)                     | Sonia S.               |https://git.hs-coburg.de/voyagex/vx_v2x_decoder|
+| Validation and Submission Planner                                                 | Monika N.                  |https://git.hs-coburg.de/voyagex/vx_localization|
+| Timekeeper, Meeting rules, and ensuring everyone is in the meeting                | Vamsi         |https://git.hs-coburg.de/voyagex/vx_obstacle_detection|
+| Planning team activities, seeking help and assistance                              | Parth Pahinkar         |https://git.hs-coburg.de/voyagex/vx_v2x_encoder|
+| Assigning tasks and planning reviews                                               | Fenil Savaliya              |https://git.hs-coburg.de/voyagex/vx_path_execution_controller|
