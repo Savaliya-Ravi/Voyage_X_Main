@@ -1,4 +1,4 @@
-## 📚 Table of Contents
+# 📚 Table of Contents
 
 - [Our Mission](#our-mission)
 - [Problem (Question Zero)](#problem-question-zero)
