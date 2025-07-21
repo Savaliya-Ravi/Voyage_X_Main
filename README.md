@@ -15,7 +15,7 @@
 - [Team Roles and Responsibilities](#-team-roles-and-responsibilities)
 
 # 🛫 Fly with VoyageX
-We are VoyageX—a crew of six ambitious minds charting bold paths through innovation, collaboration, and technical excellence. With strengths spanning Information Technology, Automotive Engineering, and Project Management, our team thrives on solving complex problems with creative precision. Fueled by curiosity and guided by teamwork, VoyageX is where diverse expertise meets shared ambition—ready to lift ideas off the ground and take them further than imagined.
+We are VoyageX, a crew of six ambitious minds charting bold paths through innovation, collaboration, and technical excellence. With strengths spanning Information Technology, Automotive Engineering, and Project Management, our team thrives on solving complex problems with creative precision. Fueled by curiosity and guided by teamwork, VoyageX is where diverse expertise meets shared ambition, ready to lift ideas off the ground and take them further than imagined.
 
 
 # 🎯 Our Mission
@@ -26,7 +26,7 @@ To design a **seamless, human-centered autonomous shuttle service** that support
 - Ensuring **safe and accessible onboarding** for those with walking aids
 - Promoting **independence and routine** for elderly residents
 
-Our solution empowers Olivia to maintain her lifestyle, meet daily needs, and reconnect with her community—**without stress, dependence, or barriers**.
+Our solution empowers Olivia to maintain her lifestyle, meet daily needs, and reconnect with her community **without stress, dependence, or barriers**.
 
 
 ---
@@ -39,7 +39,7 @@ Our solution empowers Olivia to maintain her lifestyle, meet daily needs, and re
 **by providing an on-demand service** (How)  
 **to increase their frequency of visits to supermarkets to cater to their everyday needs?** (Why)
 
-The concept of **Question Zero** emphasizes the importance of beginning the design process by focusing on real human needs. It ensures that technology is developed not just for functionality, but to improve lives—in this case, helping elderly residents in rural areas stay mobile, independent, and socially engaged.
+The concept of **Question Zero** emphasizes the importance of beginning the design process by focusing on real human needs. It ensures that technology is developed not just for functionality, but to improve lives and help elderly residents in rural areas stay mobile, independent, and socially engaged.
 
 ---
 
@@ -61,7 +61,7 @@ She no longer drives and feels emotionally burdened when asking family for help.
 
 ## 🧱 Block Diagram
 
-The autonomous shuttle system is designed to provide safe and accessible transportation for all users, especially those with mobility needs. Built on a five-layer architecture—Sensors, Sense, Plan, Act, and Actuator—the system is powered by ROS 2, ensuring modularity, real-time performance, and compatibility with modern urban mobility standards.
+The autonomous shuttle system is designed to provide safe and accessible transportation for all users, especially those with mobility needs. Built on a five-layer architecture (Sensors, Sense, Plan, Act, and Actuator) the system is powered by ROS 2, ensuring modularity, real-time performance, and compatibility with modern urban mobility standards.
 
 The Sensors Layer collects essential data to help the shuttle understand its surroundings and external conditions. A YDLIDAR G4 scans the environment to detect obstacles, while an Intel RealSense camera identifies objects. A QR code scanner verifies passengers before boarding, and a Domain Bridge (HS-IoT) ensures continuous connection to external services like cloud infrastructure and traffic updates.
 
@@ -82,7 +82,7 @@ Together, these layers form a robust and intelligent system for autonomous trans
 ## 🔄 State Diagram
 This state diagram shows the full cycle of an autonomous shuttle designed specifically for elderly users with walking aids. The shuttle starts in the Idle state, where it waits in a parking area or resting point until a booking is confirmed through a dedicated mobile app. Once a booking is made, the shuttle transitions to the Driving state. In this state, the vehicle navigates from its idle position to the user’s pickup location, using planned paths that consider safety and rural road conditions.
 
-When the shuttle reaches the pickup spot, it moves to the Boarding state. Here, the user scans a QR code for authentication before boarding. The shuttle is designed to support individuals with mobility limitations, using features like automated ramps. Once the user boards, the shuttle resumes the Driving state again—this time heading to the user's intended drop-off location, which is a supermarket. Upon arrival, the shuttle switches to the Deboarding state, where the user exits safely to begin their shopping trip.
+When the shuttle reaches the pickup spot, it moves to the Boarding state. Here, the user scans a QR code for authentication before boarding. The shuttle is designed to support individuals with mobility limitations, using features like automated ramps. Once the user boards, the shuttle resumes the Driving state again, this time heading to the user's intended drop-off location, which is a supermarket. Upon arrival, the shuttle switches to the Deboarding state, where the user exits safely to begin their shopping trip.
 
 After drop-off, the shuttle searches for an available parking spot near the supermarket. When it reaches a parking spot, it transitions into a Parking state and parks itself safely. After that it changes its state to Ideal and remains there until the user finishes shopping. Once the user completes its shopping , the same cycle can repeat. This simple, well-defined state model ensures that the shuttle service is both efficient and responsive, offering safe, on-demand mobility to help seniors complete essential tasks like grocery shopping independently and reliably.
 
@@ -103,7 +103,7 @@ After planning the route, the shuttle drives to the user’s location. After rea
 
 ## 🛠️ Tools
 
-At **VoyageX**, we prioritize clear communication, collaborative design, and informed decision-making. For team coordination and updates, we use **Microsoft Teams** as our primary communication tools. To visualize ideas, map system behaviors, and co-create diagrams, we rely on **MIRO**—a flexible platform to design the system.
+At **VoyageX**, we prioritize clear communication, collaborative design, and informed decision-making. For team coordination and updates, we use **Microsoft Teams** as our primary communication tools. To visualize ideas, map system behaviors, and co-create diagrams, we rely on **MIRO**, a flexible platform to design the system.
 
 For background research and technical understanding, we utilized platforms such as **Google Scholar**, **Wikipedia**, and other freely available academic sources to explore related technologies, accessibility considerations, and autonomous mobility systems. These tools helped us stay  informed, and aligned throughout the development of our solution.
 
@@ -145,7 +145,7 @@ entrance without delays or complex interactions.
 After shopping, she’s picked up at a nearby
 zone for her return trip.
 This service empowers Olivia to maintain her independence, avoid physical strain, and keep a
-regular routine without needing assistance—supporting both her mobility and emotional well-being.
+regular routine without needing assistance while supporting both her mobility and emotional well-being.
 
 ![Olivia Wilson](assets/Olivia_wilson.png)
 
@@ -176,13 +176,13 @@ booking.
 Once verified, the vehicle automatically deploys an accessibility ramp and opens its doors. Olivia
 boards without assistance, aided by the shuttle’s low-floor design, wide doors, secure handrails, and
 dedicated walker space. Once seated and her walker is locked in place, the system conducts a safety
-check—confirming proper seating, ramp retraction, and door closure.
+check to confirming proper seating, ramp retraction, and door closure.
 
 The shuttle continues toward the supermarket, using its onboard perception system and V2X
 communication modules to monitor traffic, receive real-time updates from surrounding
 infrastructure, and ensure safe navigation. En route, the system detects a construction-related detour
 via a V2X alert. The shuttle's path planning module instantly recalculates a new route, and Olivia is
-informed of the minor adjustment through a clear, friendly voice announcement—ensuring her ride
+informed of the minor adjustment through a clear, friendly voice announcement to ensuring her ride
 remains predictable and comfortable.
 
 At the supermarket, the shuttle stops at the designated accessible entrance, announces the arrival via
@@ -197,8 +197,7 @@ Upon arrival, the shuttle deploys the ramp, and Olivia disembarks with her groce
 completion report is automatically sent to the central management system, confirming the
 successful and secure trip.
 
-This seamless, autonomous experience empowers Olivia to manage her errands independently—
-enhancing her mobility, routine stability, and overall quality of life without needing to depend on
+This seamless, autonomous experience empowers Olivia to manage her errands independently which enhancing her mobility, routine stability, and overall quality of life without needing to depend on
 others.
 
 ![Scenario](assets/scenario.png)
