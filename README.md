@@ -225,7 +225,7 @@ Our team is committed to project success through clear communication, timely del
 |--------------------------------------------------------------------------------|------------------------|
 | [Path Planning](https://git.hs-coburg.de/voyagex/vx_path_planning) | Ravikumar               |
 | [Obstacle Detection](https://git.hs-coburg.de/voyagex/vx_obstacle_detection)     | Vamsi               |
-| [Object Detection](https://git.hs-coburg.de/voyagex/vx_object_detection)         | Ravikumar & Parth      |
+| [Object Detection](https://git.hs-coburg.de/voyagex/vx_object_detection)         | Team VoyageX      |
 | [Sensor Data Fusion and Filtering Module](https://git.hs-coburg.de/voyagex/vx_v2x_fusion)                  | Ravikumar & Parth               |
 | [Server](https://git.hs-coburg.de/voyagex/vx_server)                             | Ravikumar & Parth               |
 | [Path Execution Controller](https://git.hs-coburg.de/voyagex/vx_path_execution_controller)   | Fenil         |
