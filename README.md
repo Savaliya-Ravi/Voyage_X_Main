@@ -1,27 +1,24 @@
 # 📚 Table of Contents
 
-- [Our Mission](#our-mission)
-- [Problem (Question Zero)](#problem-question-zero)
-- [Persona](#persona)
-- [System Architecture](#system-architecture)
-  - [Block Diagram](#block-diagram)
-  - [State Diagram](#state-diagram)
-  - [Activity Diagram](#activity-diagram)
+- [Our Mission](#-our-mission)
+- [Problem (Question Zero)](#-problem-question-zero)
+- [Persona](#-persona)
+- [System Architecture](#-system-architecture)
+  - [Block Diagram](#-block-diagram)
+  - [State Diagram](#-state-diagram)
+  - [Activity Diagram](#-activity-diagram)
 - [Project Management](#project-management)
-  - [Milestones](#milestones)
-  - [User Stories](#user-stories)
-  - [Use Case](#use-case)
-  - [Scenario](#scenario)
-- [Team Roles and Responsibilities](#team-roles-and-responsibilities)
-
----
+  - [Milestones](#-milestones)
+  - [User Stories](#-user-stories)
+  - [Use Case](#-use-case)
+  - [Scenario](#-scenario)
+- [Team Roles and Responsibilities](#-team-roles-and-responsibilities)
 
 # 🛫 Fly with VoyageX
 We are VoyageX—a crew of six ambitious minds charting bold paths through innovation, collaboration, and technical excellence. With strengths spanning Information Technology, Automotive Engineering, and Project Management, our team thrives on solving complex problems with creative precision. Fueled by curiosity and guided by teamwork, VoyageX is where diverse expertise meets shared ambition—ready to lift ideas off the ground and take them further than imagined.
 
 
-
-## 🎯 Our Mission
+# 🎯 Our Mission
 
 To design a **seamless, human-centered autonomous shuttle service** that supports users like Olivia by:
 
@@ -34,7 +31,7 @@ Our solution empowers Olivia to maintain her lifestyle, meet daily needs, and re
 
 ---
 
-## 🧠 Problem (Question Zero)
+# 🧠 Problem (Question Zero)
 
 **How can we design an autonomous shuttle service** (What)  
 **that ensures transportation for senior citizens with walking aids** (For whom)  
@@ -46,25 +43,23 @@ The concept of **Question Zero** emphasizes the importance of beginning the desi
 
 ---
 
-## Persona
+# 👵 Persona
 
 The **Persona Method** helps designers and engineers deeply understand the **challenges, motivations, and preferences** of their users. By crafting fictional, research-driven user profiles, we can ensure that our autonomous shuttle solution is tailored to meet real-world demands.
 
-### 💼 Meet Olivia Wilson
+## 💼 Meet Olivia Wilson
 
 **Olivia Wilson** is a 70-year-old woman living alone in a senior apartment in Kronach. She uses a walker with a seat due to mild arthritis and occasional fatigue. Although she values her independence, her mobility limitations and the lack of accessible public transportation make grocery shopping increasingly difficult.
 
 She no longer drives and feels emotionally burdened when asking family for help. Olivia prefers shopping in the mornings when stores are less crowded but is often deterred by poor weather, long walking distances, and steep bus steps.
 
-> “I just want to get my groceries without feeling like I’m a burden or in a rush.”
+![Persona](assets/Persona.png)
 
 ---
 
-## System Architecture
+# 🧩 System Architecture
 
-We designed a modular and scalable system that ensures reliability, accessibility, and real-time responsiveness.
-
-### Block Diagram
+## 🧱 Block Diagram
 
 The autonomous shuttle system is designed to provide safe and accessible transportation for all users, especially those with mobility needs. Built on a five-layer architecture—Sensors, Sense, Plan, Act, and Actuator—the system is powered by ROS 2, ensuring modularity, real-time performance, and compatibility with modern urban mobility standards.
 
@@ -80,48 +75,48 @@ The Actuator Layer transforms these decisions into physical motion. A Door Actua
 
 Together, these layers form a robust and intelligent system for autonomous transport. With a focus on safety, accessibility, and real-time response, and backed by the reliability of ROS 2, the shuttle is ready for practical use in smart city environments.
 
-![Block Diagram](block_diagram.jpg)
+![Block Diagram](assets/block_diagram.jpg)
 
-[Visit Miro Board](https://miro.com/welcomeonboard/V2tWM2k0RU5iY0xkQjZ6RHIveVJJUHJOdzRnSEJ2cFRmOWZIRzc5dCs4WFZDS2NVS3BFeGdQaVVLMUR4MDJBeDYrWXN3WTJ5TjRYWWM3ckkyTnBVVndya1U4UG5xQTJJeGhYY2xaaFI2azVmMW9Kb1dsckFwNHVJcTJTODB5dktyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=175416963287)
+[Visit Miro Board](https://miro.com/app/board/uXjVJfaT4fM=/?moveToWidget=3458764634693919231&cot=14)
 
-
-### State Diagram
+## 🔄 State Diagram
 This state diagram shows the full cycle of an autonomous shuttle designed specifically for elderly users with walking aids. The shuttle starts in the Idle state, where it waits in a parking area or resting point until a booking is confirmed through a dedicated mobile app. Once a booking is made, the shuttle transitions to the Driving state. In this state, the vehicle navigates from its idle position to the user’s pickup location, using planned paths that consider safety and rural road conditions.
 
 When the shuttle reaches the pickup spot, it moves to the Boarding state. Here, the user scans a QR code for authentication before boarding. The shuttle is designed to support individuals with mobility limitations, using features like automated ramps. Once the user boards, the shuttle resumes the Driving state again—this time heading to the user's intended drop-off location, which is a supermarket. Upon arrival, the shuttle switches to the Deboarding state, where the user exits safely to begin their shopping trip.
 
 After drop-off, the shuttle searches for an available parking spot near the supermarket. When it reaches a parking spot, it transitions into a Parking state and parks itself safely. After that it changes its state to Ideal and remains there until the user finishes shopping. Once the user completes its shopping , the same cycle can repeat. This simple, well-defined state model ensures that the shuttle service is both efficient and responsive, offering safe, on-demand mobility to help seniors complete essential tasks like grocery shopping independently and reliably.
 
-![State Diagram](State_diagram.jpg)
+![State Diagram](assets/State_diagram.jpg)
 
-### Activity Diagram
+## 🏃 Activity Diagram
 
 The autonomous shuttle service begins when an elderly resident uses a dedicated app to request a ride to the supermarket. The app is designed specifically for seniors, with large icons and a simplified interface to make booking easier. Once a booking request is received, the system checks if the booking is confirmed. If not, the shuttle doesn’t proceed but instead waits in the parking area, until a valid request comes in. If the booking is successful, the shuttle plans a path to the user’s based on current traffic and road conditions in the rural area.
 
 After planning the route, the shuttle drives to the user’s location. After reaching the pickup location, the shuttle authenticates user using a QR code scanner, ensuring the correct person boards the shuttle. After successful authentication, the user boards the shuttle, which is designed to accommodate walking aids with automated door and ramp access. The shuttle then drives to the supermarket, since the goal of this service is to assist elderly citizens in making routine shopping trips independently. Once at the supermarket, the user deboards the shuttle safely and proceeds with their shopping.
 
-![Activity Diagram](Activity_diagram.jpg)
+![Activity Diagram](assets/Activity_diagram.jpg)
 
 
 ---
 
-## Project Management
+# 🗂️ Project Management
 
-### Milestones
+## 🛠️ Tools
 
-- Week 1–2: Requirement gathering and persona creation
-- Week 3–4: System architecture and block diagram
-- Week 5–6: Prototype development
-- Week 7–8: Testing and final review
+At **VoyageX**, we prioritize clear communication, collaborative design, and informed decision-making. For team coordination and updates, we use **Microsoft Teams** as our primary communication tools. To visualize ideas, map system behaviors, and co-create diagrams, we rely on **MIRO**—a flexible platform to design the system.
 
-### User Stories
-
-![User Stories](user_stories.jpg)
-
-[Visit Miro Board](https://miro.com/welcomeonboard/bFdCeDJveHExeDFBWDdaVTBZci9jdDd2NVhjS3M5dUVMWEZoZDIveTR4NlVHN01hTUp5TUw4eEZyNS94aG1zVFJoM0NESlgvelJXR0grMWpBNDlyVlFya1U4UG5xQTJJeGhYY2xaaFI2azZzYjJlWFZNcjRzMXBnUGNBZXRDMGphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=382741195050)
+For background research and technical understanding, we utilized platforms such as **Google Scholar**, **Wikipedia**, and other freely available academic sources to explore related technologies, accessibility considerations, and autonomous mobility systems. These tools helped us stay  informed, and aligned throughout the development of our solution.
 
 
-### Use Case
+## 📅 Milestones
+![Milestones](assets/milestones.jpg)
+
+## 📋 User Stories
+
+In this project, user stories are structured to reflect the development process and the technical goals of building a modular vehicle system. These stories capture the responsibilities and intentions of developers, system components, and the team as a whole.This approach helps align the project’s technical milestones with its functional goals.
+[Visit User Stories Miro Board](https://miro.com/app/board/uXjVJfaT4fM=/?moveToWidget=3458764635025969912&cot=14)
+
+## 🔎 Use Case
 
 Olivia Wilson, a 70-year-old retiree, lives alone in a senior apartment in Kronach. She values her
 independence but faces challenges due to mild arthritis and fatigue, relying on a walker with a seat
@@ -142,9 +137,10 @@ zone for her return trip.
 This service empowers Olivia to maintain her independence, avoid physical strain, and keep a
 regular routine without needing assistance—supporting both her mobility and emotional well-being.
 
-![Olivia Wilson](Olivia_wilson.png)
+![Olivia Wilson](assets/Olivia_wilson.png)
 
-### Scenario
+## 🎬 Scenario
+
 
 The autonomous grocery shuttle operation begins with a ride request initiated by the user, Olivia
 Wilson, a 70-year-old retiree living independently in a senior apartment in Kronach. Due to mild
@@ -195,18 +191,39 @@ This seamless, autonomous experience empowers Olivia to manage her errands indep
 enhancing her mobility, routine stability, and overall quality of life without needing to depend on
 others.
 
-![Scenario](scenario.png)
+![Scenario](assets/scenario.png)
+
 ---
 
-## Team Roles and Responsibilities
+# 👥 Team Roles and Responsibilities
 
 Our team is committed to project success through clear communication, timely delivery, and collaborative problem-solving. Each member has specific roles, from managing meetings and documenting progress to overseeing agile practices and ensuring team activities run smoothly. Together, we achieve collective growth and efficiency.
 
 | **Responsibility**                                                                 | **Member**             | **Component**|
 |------------------------------------------------------------------------------------|------------------------|--------------|
-| Project Management, Feedback jotting, Software Engineering                        | Ravikumar Savaliya     |[Path Planning](https://git.hs-coburg.de/voyagex/vx_path_planning)|
-| Documentation (Goals, Protocols, Mails, Weekly Presentations)                     | Sonia S.               |[V2X Decoder](https://git.hs-coburg.de/voyagex/vx_v2x_decoder)|
-| Validation and Submission Planner                                                 | Monika N.                  |[Localization](https://git.hs-coburg.de/voyagex/vx_localization)|
-| Timekeeper, Meeting rules, and ensuring everyone is in the meeting                | Vamsi         |[Obstacle Detection](https://git.hs-coburg.de/voyagex/vx_obstacle_detection)|
-| Planning team activities, seeking help and assistance                              | Parth Pahinkar         |[V2X Encoder](https://git.hs-coburg.de/voyagex/vx_v2x_encoder)|
-| Assigning tasks and planning reviews                                               | Fenil Savaliya              |[Path Execution Controller](https://git.hs-coburg.de/voyagex/vx_path_execution_controller)|
+| Visual Collaboration Specialist                        | Ravikumar Savaliya     |[Path Planning](https://git.hs-coburg.de/voyagex/vx_path_planning)|
+| Workflow Coordinator                    | Sonia S.               |[V2X Decoder](https://git.hs-coburg.de/voyagex/vx_v2x_decoder)|
+| QA & Compliance Lead                                                 | Monika N.                  |[Localization](https://git.hs-coburg.de/voyagex/vx_localization)|
+| Tech & Meeting Coordinator                | Vamsi         |[Obstacle Detection](https://git.hs-coburg.de/voyagex/vx_obstacle_detection)|
+| Data Integrity Analyst                              | Parth Pahinkar         |[V2X Encoder](https://git.hs-coburg.de/voyagex/vx_v2x_encoder)|
+| Documentation Lead                                               | Fenil Savaliya              |[Path Execution Controller](https://git.hs-coburg.de/voyagex/vx_path_execution_controller)|
+
+
+### Component Responsibilities
+
+| Component Name                                                                 | Responsibility         |
+|--------------------------------------------------------------------------------|------------------------|
+| [Path Planning](https://git.hs-coburg.de/voyagex/vx_path_planning) | Ravikumar               |
+| [Obstacle Detection](https://git.hs-coburg.de/voyagex/vx_obstacle_detection)     | Vamsi               |
+| [Object Detection](https://git.hs-coburg.de/voyagex/vx_object_detection)         | Ravikumar & Parth      |
+| [Sensor Data Fusion and Filtering Module](https://git.hs-coburg.de/voyagex/vx_v2x_fusion)                  | Ravikumar & Parth               |
+| [Server](https://git.hs-coburg.de/voyagex/vx_server)                             | Ravikumar & Parth               |
+| [Path Execution Controller](https://git.hs-coburg.de/voyagex/vx_path_execution_controller)   | Fenil         |
+| [Desicion Unit](https://git.hs-coburg.de/voyagex/vx_decision_unit)       | Ravikumar & Parth                |
+| [V2X Encoder](https://git.hs-coburg.de/voyagex/vx_v2x_encoder)                           | Parth                |
+| [V2X Decoder](https://git.hs-coburg.de/voyagex/vx_v2x_decoder)              | Sonia                 |
+| [Authentication](https://git.hs-coburg.de/voyagex/vx_authentication)          | Ravikumar & Parth      |
+| [Access Controller](https://git.hs-coburg.de/voyagex/vx_door_operation)            | Ravikumar & Parth      |
+| [Localization](https://git.hs-coburg.de/voyagex/vx_visualization) | Monika              |
+
+
