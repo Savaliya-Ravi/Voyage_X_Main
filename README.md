@@ -15,7 +15,7 @@
 - [Team Roles and Responsibilities](#-team-roles-and-responsibilities)
 
 # 🛫 Fly with VoyageX
-We are VoyageX, a crew of six ambitious minds charting bold paths through innovation, collaboration, and technical excellence. With strengths spanning Information Technology, Automotive Engineering, and Project Management, our team thrives on solving complex problems with creative precision. Fueled by curiosity and guided by teamwork, VoyageX is where diverse expertise meets shared ambition, ready to lift ideas off the ground and take them further than imagined.
+We are VoyageX, a group of six driven individuals who are using technical prowess, teamwork, and creativity to explore bold paths. Our team, which has strengths in project management, automotive engineering, and information technology, thrives on finding innovative solutions to challenging issues. Curiosity and teamwork drive VoyageX, a place where a range of expertise and common goals come together to launch ideas and propel them beyond their wildest expectations.
 
 
 # 🎯 Our Mission
