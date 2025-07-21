@@ -111,6 +111,16 @@ For background research and technical understanding, we utilized platforms such 
 ## 📅 Milestones
 ![Milestones](assets/milestones.jpg)
 
+| Icons | Meaning              | | Colors  | Meaning                   |
+|------|---------------------|-|--------|---------------------------|
+| 🧪   | Testing            |  | Blue   | Technical Development     |
+| 🔗   | Integration        | |  Green  | UI/UX or HMI              |
+| ✅   | Compliance          | | Red    | Safety & Compliance       |
+| 🎯   | User Experience    | | Purple | AI/Data/Simulation        |
+| 🔐   | Security            | | Orange | Business & Launch         |
+| 🛠️   | Development         | 
+
+
 ## 📋 User Stories
 
 In this project, user stories are structured to reflect the development process and the technical goals of building a modular vehicle system. These stories capture the responsibilities and intentions of developers, system components, and the team as a whole.This approach helps align the project’s technical milestones with its functional goals.
