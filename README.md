@@ -235,11 +235,11 @@ Our team is committed to project success through clear communication, timely del
 
 | **Responsibility**                                                                 | **Member**             | 
 |------------------------------------------------------------------------------------|------------------------|
-| Visual Collaboration Specialist                        | Ravikumar Savaliya     |
+| Visual Collaboration                        | Ravikumar Savaliya     |
 | Workflow Coordinator                    | Sonia S.               |
 | QA & Compliance Lead                                                 | Monika N.                  |
 | Tech & Meeting Coordinator                | Vamsi         |
-| Data Integrity Analyst                              | Parth Pahinkar         |
+| Data Integrator                              | Parth Pahinkar         |
 | Documentation Lead                                               | Fenil Savaliya              |
 
 
